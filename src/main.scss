@@ -1,0 +1,116 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import "../node_modules/bootstrap/dist/css/bootstrap";
+
+:root {
+    --bs-body-font-family: 'Proxima Nova', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border-radius: 0px;
+    border: none;
+    color: transparent;
+}
+
+.logo {
+    height: 65px;
+}
+
+.splash {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+h3,
+h5 {
+    font-family: 'Futura PT', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
+
+h2 {
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 1.6em;
+    // text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+}
+
+p {
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0 0 1em;
+}
+
+
+.navbar {
+    background-color: white !important;
+}
+
+a,
+a:active,
+a:visited {
+color: black;
+text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 300
+    ;
+}
+
+// Navlink:active {
+//     text-decoration: line-through;
+// }
+
+.companies {
+    height: 100px;
+    max-height: 100%;
+}
+
+
+.thumbnail {
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    transition: transform 5s;
+}
+
+
+.thumbnail:hover {
+    filter: brightness(1.05);
+    transform: scale(1.06);
+}
+
+
+.projectTitle {
+    margin: 15px;
+}
+
+.imgContainer {
+    overflow: hidden;
+}
+
+strong {
+    font-weight: 700;
+}
