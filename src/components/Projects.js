@@ -3,13 +3,13 @@ import { Form, Link } from "react-router-dom"
 import ProjectThumbnail from "./ProjectThumbnail"
 //thumbnail images
 import splash1 from "../images/splash screen images/splash (1).jpg"
-import skateSpace from "../images/project images/02 Skate Space/Marcin CGI/Skatepatk - view 1 - 16 06 2023 B.jpg"
-import zincExtension from "../images/project images/03 Zinc Extension/Placeholder.jpg"
-import robertsportCommunityCentre from "../images/project images/04 Robertsport Community Centre/Images/RP_Biz copy.jpg"
+import skateSpace from "../images/project images/02 Skate Space/Marcin CGI/skatespace thumbnail.jpg"
+import zincExtension from "../images/project images/03 Zinc Extension/Placeholder thumbnail.jpg"
+import robertsportCommunityCentre from "../images/project images/04 Robertsport Community Centre/Images/Robertsport thumbnail.jpg"
 import listedBuildingConversion from "../images/project images/05 Listed Building Conversion/placeholder.jpg"
-import steppedHouse from "../images/project images/06 Stepped House/3.jpg"
-import netZeroEstate from "../images/project images/07 Net-Zero Estate/CGI Gascoigne.jpg"
-
+import steppedHouse from "../images/project images/06 Stepped House/steppedhouse thumbnail.jpg"
+import netZeroEstate from "../images/project images/07 Net-Zero Estate/netzero thumbnail.jpg"
+import school4Burma from "../images/project images/08 School 4 Burma/Marcin CGI + Boards/school4burma thumbnail.jpg"
 const Projects = () => {
     return (
         <section id="gallery" className="">
@@ -23,7 +23,7 @@ const Projects = () => {
                 <ProjectThumbnail title="Listed Building Conversion" type="" image={listedBuildingConversion} />
                 <ProjectThumbnail title="Stepped House" type="" image={steppedHouse} />
                 <ProjectThumbnail title="Net-Zero Estate" type="" image={netZeroEstate} />
-                <ProjectThumbnail title="School 4 Burma" type="" image={splash1} />
+                <ProjectThumbnail title="School 4 Burma" type="" image={school4Burma} />
                 <ProjectThumbnail title="JYAF Sketch Club" type="" image={splash1} />
             </div>
         </section>

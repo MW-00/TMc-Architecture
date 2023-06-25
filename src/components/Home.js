@@ -13,13 +13,13 @@ const Home = () => {
 
             <section>
                 <h2>Architecture that respects Context, Community & the Natural Environment </h2>
-                <p>TMC Architects is a forward thinking architectural-practice based in Jersey. We specialise in the design & delivery of high quality sustainable architecture.</p>
+                <p>TM<sup>c</sup> Architects is a forward thinking architectural-practice based in Jersey. We specialise in the design & delivery of high quality sustainable architecture.</p>
             </section>
 
             <hr className="my-5" />
 
             <section>
-                    <h2>TMc ARCHITECTURE</h2>
+                    <h2>TM<sup>c</sup> ARCHITECTURE</h2>
                     <p><strong>Tom McAviney</strong></p>
                     <p> Adress line 1 <br />
                         Adress line 2 <br /><br />

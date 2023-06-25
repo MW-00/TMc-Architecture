@@ -4,10 +4,10 @@ import Projects from "./Projects";
 const Project = ({ image, title, type, description1, children }) => {
     return (
         <div className="row g-5">
-            <div className="col-8">
+            <div className="col-12 col-lg-8">
                 <img src={image} className="splash"></img>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-lg-4">
                 <h2 className="">{title}</h2>
                 <h6 className="">{type}</h6>
                 <p>{description1}</p>
