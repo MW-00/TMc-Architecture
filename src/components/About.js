@@ -11,7 +11,7 @@ const About = () => {
                 </div>
                 <div className="col-8">
                     <p>
-                        <strong>TM<sup>c</sup> Architects is a forward thinking architectural-practice based in Jersey with a focus on designing buildings that make a positive impact to their surroundings.</strong><br/>   
+                        <strong>TM<sup>c</sup> Architure is a forward thinking architectural-practice based in Jersey with a focus on designing buildings that make a positive impact to their surroundings.</strong><br/>   
                         The practice specialises in the design & delivery of high quality sustainable architecture.
                         We undertake commissions across a range of sectors from domestic extensions and alterations, work to listed buildings, small-scale housing developments and community projects.
                         We unlock the value of each site to design innovative buildings that prioritise people, places and the planet.

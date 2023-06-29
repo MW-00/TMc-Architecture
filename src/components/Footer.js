@@ -5,9 +5,15 @@ import logo from "../images/logos/tmc.png"
 // import '../main.css';
 const Footer = () => {
   return (
-<div className="bg-light d-flex justify-content-center align-items-center mt-5" style={{height: "100px"}}>
-<p className="text-muted"><i>footer tbc</i></p>
-</div>
+<footer className="d-flex text-center text-secondary justify-content-center align-items-center mt-5 p-3">
+<ul style={{listStyle: 'none'}}>
+  <li>TMC Architecture </li>
+  <li>address </li>
+  <li>address </li>
+  <li>phone </li>
+  <li>email </li>
+</ul>
+</footer>
   );
 }
 

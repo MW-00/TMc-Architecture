@@ -24,7 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
 
           {/* project pages */}
-          {/* <Route path="/projects/skatespace" element={<SkateSpace />} /> */}
+          <Route path="/projects/skatespace" element={<SkateSpace />} />
           {/* <Route path="/projects/steppedhouse" element={<SteppedHouse />} /> */}
 
 

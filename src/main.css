@@ -12304,6 +12304,10 @@ body {
   height: 65px;
 }
 
+.logoFooter {
+  height: 20px;
+}
+
 .splash {
   width: 100%;
   height: 100%;
@@ -12327,6 +12331,16 @@ h2 {
   font-size: 1.6em;
   text-decoration: none;
   letter-spacing: 0.06em;
+}
+
+li {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2em;
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 p {
