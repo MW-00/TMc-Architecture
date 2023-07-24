@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-    height: 65px;
+    height: 95px;
 }
 
 .logoFooter {
@@ -64,7 +64,7 @@ li {
     text-decoration: none;
     letter-spacing: .06em;
     text-transform: uppercase;
-    
+
 }
 
 p {
@@ -85,14 +85,13 @@ p {
 a,
 a:active,
 a:visited {
-color: black;
-text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .active {
     text-decoration: underline;
-    font-weight: 300
-    ;
+    font-weight: 300;
 }
 
 // Navlink:active {
@@ -102,6 +101,7 @@ text-decoration: none;
 .companies {
     height: 100px;
     max-height: 100%;
+    filter: opacity(0.4);
 }
 
 
@@ -129,4 +129,9 @@ text-decoration: none;
 
 strong {
     font-weight: 700;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
 }

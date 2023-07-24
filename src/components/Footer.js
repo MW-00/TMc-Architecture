@@ -6,8 +6,8 @@ import logo from "../images/logos/tmc.png"
 const Footer = () => {
   return (
 <footer className="d-flex text-center text-secondary justify-content-center align-items-center mt-5 p-3">
-<ul style={{listStyle: 'none'}}>
-  <li>TMC Architecture </li>
+<ul>
+  <li>9X5 ARCHITECTS </li>
   <li>address </li>
   <li>address </li>
   <li>phone </li>

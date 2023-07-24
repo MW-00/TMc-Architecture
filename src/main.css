@@ -12301,7 +12301,7 @@ body {
 }
 
 .logo {
-  height: 65px;
+  height: 95px;
 }
 
 .logoFooter {
@@ -12372,6 +12372,7 @@ a:visited {
 .companies {
   height: 100px;
   max-height: 100%;
+  filter: opacity(0.4);
 }
 
 .thumbnail {
@@ -12397,4 +12398,9 @@ a:visited {
 
 strong {
   font-weight: 700;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
 }

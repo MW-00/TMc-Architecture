@@ -3,6 +3,7 @@ import { Form, Link } from "react-router-dom"
 import ProjectThumbnail from "./ProjectThumbnail"
 //thumbnail images
 import splash1 from "../images/splash screen images/splash (1).jpg"
+import cuttySark from "../images/project images/00 Cutty Sark House/Cutty Sark thumbnail2.jpg"
 import skateSpace from "../images/project images/02 Skate Space/Marcin CGI/skatespace thumbnail.jpg"
 import zincExtension from "../images/project images/03 Zinc Extension/Placeholder thumbnail.jpg"
 import robertsportCommunityCentre from "../images/project images/04 Robertsport Community Centre/Images/Robertsport thumbnail.jpg"
@@ -14,6 +15,7 @@ const Projects = () => {
     return (
         <section id="gallery" className="">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3  g-5 text-center">
+                <ProjectThumbnail title="Cutty Sark House" type="" image={cuttySark} />
                 <ProjectThumbnail title="Cedar Extension" type="" image={splash1} />
                 <Link to="/projects/skatespace">
                     <ProjectThumbnail title="Skate Space" type="" image={skateSpace} />

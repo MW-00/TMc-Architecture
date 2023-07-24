@@ -1,6 +1,8 @@
 import React from "react";
-import hero from '../images/project images/Community - Skate Space/Marcin CGI/Skatepatk - view 1 - 16 06 2023 B.jpg'
-import riba from '../images/logos/Riba-Logo.jpg'
+import hero from '../images/project images/00 Cutty Sark House/Cutty Sark - exterior - 14 09 2023 comporess.jpg'
+import riba from '../images/logos/riba.jpg'
+import eco from '../images/logos/eco.jpg'
+import arb from '../images/logos/arb.jpg'
 
 const Home = () => {
     return (
@@ -13,13 +15,13 @@ const Home = () => {
 
             <section>
                 <h2>Architecture that respects Context, Community & the Natural Environment </h2>
-                <p>TM<sup>c</sup> Architects is a forward thinking architectural-practice based in Jersey. We specialise in the design & delivery of high quality sustainable architecture.</p>
+                <p>9X5 ARCHITECTS is a forward thinking architectural-practice based in Jersey. We specialise in the design & delivery of high quality sustainable architecture.</p>
             </section>
 
             <hr className="my-5" />
 
             <section>
-                    <h2>TM<sup>c</sup> ARCHITECTURE</h2>
+                    <h2>9X5 ARCHITECTS</h2>
                     <p><strong>Tom McAviney</strong></p>
                     <p> Adress line 1 <br />
                         Adress line 2 <br /><br />
@@ -30,21 +32,28 @@ const Home = () => {
             <hr className="my-5" />
 
             <section className="mb-5">
-                <div className="row text-center d-flex">
-                    <div className="col-md-12 col-lg ">
+                <div className="row">
+                    <div className="col d-flex flex-column flex-md-row align-items-center justify-content-between m-0 p-0 gap-3">
+                        <div><img src={riba} alt="riba" className="companies" /></div>
+                        <div><img src={arb} alt="riba" className="companies" /></div>
+                        <div><img src={eco} alt="riba" className="companies" /></div>
+                    </div>
+                
+                
+                    {/* <div className="col-md-12 col-lg border">
+                    <img src={arb} alt="riba" className="companies" />
+                    </div>
+                    <div className="col-md-12 col-lg border">
                         <img src={riba} alt="riba" className="companies" />
                     </div>
-                    <div className="col-md-12 col-lg ">
-                        <img src={riba} alt="riba" className="companies" />
-                    </div>
-                    <div className="col-md-12 col-lg ">
-                        <img src={riba} alt="riba" className="companies" />
-                    </div>
+                    <div className="col-md-12 col-lg border">
+                        <img src={eco} alt="riba" className="companies" />
+                    </div> */}
                 </div>
             </section>
             
         </div>
     );
 }
-
+// RIBA, ARB and Eco Active 
 export default Home;
