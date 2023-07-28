@@ -1,5 +1,6 @@
 import React from "react";
 import hero from '../images/project images/00 Cutty Sark House/Cutty Sark - exterior - 14 09 2023 comporess.jpg'
+import hero2 from '../images/project images/02 Skate Space/Marcin CGI/Skatepatk - view 1 - 16 06 2023 B.jpg'
 import riba from '../images/logos/riba.jpg'
 import eco from '../images/logos/eco.jpg'
 import arb from '../images/logos/arb.jpg'
@@ -8,9 +9,25 @@ const Home = () => {
     return (
         <div id="home">
             <section className="my-5 my-sm-5">
-                <div id="hero" className="ratio ratio-16x9">
-                    <img src={hero} alt="hero image" className="splash" />
+
+
+                <div id="carouselExampleSlidesOnly" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={hero} className="d-block w-100 splash" alt="hero image" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={hero2} className="d-block w-100 splash" alt="hero image" />
+                        </div>
+                    </div>
                 </div>
+
+
+
+                {/* <div id="hero" className="ratio ratio-16x9">
+                    <img src={hero} alt="hero image" className="splash" />
+                </div> */}
+
             </section>
 
             <section>
@@ -20,7 +37,7 @@ const Home = () => {
 
             <hr className="my-5" />
 
-            <section>
+            {/* <section>
                     <h2>9X5 ARCHITECTS</h2>
                     <p><strong>Tom McAviney</strong></p>
                     <p> Adress line 1 <br />
@@ -29,7 +46,7 @@ const Home = () => {
                         +00 000 000 000
                     </p>
             </section>
-            <hr className="my-5" />
+            <hr className="my-5" /> */}
 
             <section className="mb-5">
                 <div className="row">
@@ -38,8 +55,8 @@ const Home = () => {
                         <div><img src={arb} alt="riba" className="companies" /></div>
                         <div><img src={eco} alt="riba" className="companies" /></div>
                     </div>
-                
-                
+
+
                     {/* <div className="col-md-12 col-lg border">
                     <img src={arb} alt="riba" className="companies" />
                     </div>
@@ -51,7 +68,7 @@ const Home = () => {
                     </div> */}
                 </div>
             </section>
-            
+
         </div>
     );
 }

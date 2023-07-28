@@ -16,7 +16,7 @@ function App() {
       <div className="container">
         <Navbar />
         <Routes>
-          
+
           {/* main pages */}
           <Route index element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -29,7 +29,7 @@ function App() {
 
 
         </Routes>
-<Footer />
+        <Footer />
       </div>
     </BrowserRouter>
   );

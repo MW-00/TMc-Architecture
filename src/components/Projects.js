@@ -1,6 +1,7 @@
 import React from "react"
 import { Form, Link } from "react-router-dom"
 import ProjectThumbnail from "./ProjectThumbnail"
+
 //thumbnail images
 import splash1 from "../images/splash screen images/splash (1).jpg"
 import cuttySark from "../images/project images/00 Cutty Sark House/Cutty Sark thumbnail2.jpg"
@@ -11,6 +12,8 @@ import listedBuildingConversion from "../images/project images/05 Listed Buildin
 import steppedHouse from "../images/project images/06 Stepped House/steppedhouse thumbnail.jpg"
 import netZeroEstate from "../images/project images/07 Net-Zero Estate/netzero thumbnail.jpg"
 import school4Burma from "../images/project images/08 School 4 Burma/Marcin CGI + Boards/school4burma thumbnail.jpg"
+
+
 const Projects = () => {
     return (
         <section id="gallery" className="">
