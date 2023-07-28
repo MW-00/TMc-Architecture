@@ -1,5 +1,5 @@
 import React from "react";
-import sketch from '../images/splash screen images/sketch.jpg'
+import sketch from '../images/splash screen images/about.jpg'
 
 const About = () => {
     return (
@@ -46,6 +46,11 @@ const About = () => {
             <section className="my-5">
                 <div className="row text-center d-flex">
                     <div className="col-md-12 col-lg">
+                        <div className="imgContainer  border" >
+                            <img src={sketch} alt="riba" className="thumbnail" />
+                        </div>
+                    </div>
+                    {/* <div className="col-md-12 col-lg">
                         <div className="imgContainer ratio ratio-16x9 border" >
                             <img src={sketch} alt="riba" className="thumbnail" />
                         </div>
@@ -54,12 +59,7 @@ const About = () => {
                         <div className="imgContainer ratio ratio-16x9 border" >
                             <img src={sketch} alt="riba" className="thumbnail" />
                         </div>
-                    </div>
-                    <div className="col-md-12 col-lg">
-                        <div className="imgContainer ratio ratio-16x9 border" >
-                            <img src={sketch} alt="riba" className="thumbnail" />
-                        </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </section>
