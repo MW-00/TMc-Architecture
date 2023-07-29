@@ -1,4 +1,7 @@
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
+
+
 import hero from '../images/project images/00 Cutty Sark House/Cutty Sark - exterior - 14 09 2023 comporess.jpg'
 import hero2 from '../images/project images/02 Skate Space/Marcin CGI/Skatepatk - view 1 - 16 06 2023 B.jpg'
 import riba from '../images/logos/riba.jpg'
@@ -11,7 +14,22 @@ const Home = () => {
             <section className="my-5 my-sm-5">
 
 
-                <div id="carouselExampleSlidesOnly" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                <Carousel controls={false} indicators={false} fade={true} pause={false} interval={4500}>
+                    <Carousel.Item>
+                        <img src={hero} className="ratio ratio-16x9 splash" />
+                    </Carousel.Item>
+
+
+                    <Carousel.Item>
+                        <img src={hero2} className="ratio ratio-16x9 splash" />
+                    </Carousel.Item>
+
+                </Carousel>
+
+
+
+
+                {/* <div id="carouselExampleSlidesOnly" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={hero} className="d-block w-100 splash" alt="hero image" />
@@ -20,7 +38,7 @@ const Home = () => {
                             <img src={hero2} className="d-block w-100 splash" alt="hero image" />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
