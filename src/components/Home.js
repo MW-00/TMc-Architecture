@@ -14,7 +14,7 @@ const Home = () => {
             <section className="my-5 my-sm-5">
 
 
-                <Carousel controls={false} indicators={false} fade={true} pause={false} interval={4500}>
+                <Carousel controls={false} indicators={false} fade={true} pause={false} interval={5000}>
                     <Carousel.Item>
                         <img src={hero} className="ratio ratio-16x9 splash" />
                     </Carousel.Item>
@@ -90,5 +90,5 @@ const Home = () => {
         </div>
     );
 }
-// RIBA, ARB and Eco Active 
+
 export default Home;
