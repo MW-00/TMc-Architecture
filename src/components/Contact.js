@@ -26,8 +26,8 @@ const Contact = () => {
                 <div className="col-12 col-lg-6 order-sm-1 order-lg-3 align-items-start d-flex justify-content-start flex-column" style={{ minHeight: "100px" }}>
                     <p className="nav-link">CONTACT</p>
                     <p>
-                        For new enquiries please get in touch via email or telephone.<br />
-                        <strong>a:</strong> Digital Jersey Xchange | South Exchange | Route Orange | Jersey | JE3 8JG<br />
+                        For new enquiries please get in touch <br className="d-md-none"/>via email or telephone.<br />
+                        <strong>a:</strong> Digital Jersey Xchange | South Exchange <span className="d-md-inline d-none">|</span> <span className="d-md-none"><br/>&nbsp;&nbsp;&nbsp; </span> Route Orange | Jersey | JE3 8JG<br />
                         <strong>e:</strong> tom@9x5architects.com<br />
                         <strong>t:</strong> +44 7797 930 814
                     </p>
