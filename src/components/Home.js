@@ -2,8 +2,10 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
 
-import hero from '../images/project images/00 Cutty Sark House/Cutty Sark - exterior - 14 09 2023 comporess.jpg'
-import hero2 from '../images/project images/02 Skate Space/Marcin CGI/Skatepatk - view 1 - 16 06 2023 B.jpg'
+import carousel1 from '../images/project images/00 Cutty Sark House/Cutty Sark - exterior compressed.jpg'
+import carousel2 from '../images/project images/00 Cutty Sark House/Cutty Sark -interior compressed.jpg'
+import carousel3 from '../images/project images/02 Skate Space/Marcin CGI/Skatepatk - view 1 compressed.jpg'
+import carousel4 from '../images/project images/08 School 4 Burma/Marcin CGI + Boards/Myanmar - school - view 1 compressed.jpg'
 import riba from '../images/logos/riba.jpg'
 import eco from '../images/logos/eco.jpg'
 import arb from '../images/logos/arb.jpg'
@@ -16,12 +18,19 @@ const Home = () => {
 
                 <Carousel controls={false} indicators={false} fade={true} pause={false} interval={5000}>
                     <Carousel.Item>
-                        <img src={hero} className="ratio ratio-16x9 splash" />
+                        <img src={carousel1} className="ratio ratio-16x9 splash" />
                     </Carousel.Item>
 
+                    <Carousel.Item>
+                        <img src={carousel2} className="ratio ratio-16x9 splash" />
+                    </Carousel.Item>
 
                     <Carousel.Item>
-                        <img src={hero2} className="ratio ratio-16x9 splash" />
+                        <img src={carousel3} className="ratio ratio-16x9 splash" />
+                    </Carousel.Item>
+                 
+                    <Carousel.Item>
+                        <img src={carousel4} className="ratio ratio-16x9 splash" />
                     </Carousel.Item>
 
                 </Carousel>

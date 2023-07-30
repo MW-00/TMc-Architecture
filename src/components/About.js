@@ -1,6 +1,5 @@
 import React from "react";
-import sketch from '../images/splash screen images/about.jpg'
-
+import sketch from "../images/project images/03 Zinc Extension/Zinc Extension - about page.jpg"
 const About = () => {
     return (
         <div>
@@ -46,8 +45,8 @@ const About = () => {
             <section className="my-5">
                 <div className="row text-center d-flex">
                     <div className="col-md-12 col-lg">
-                        <div className="imgContainer  border" >
-                            <img src={sketch} alt="riba" className="thumbnail" />
+                        <div className="imgContainer" >
+                            <img src={sketch    } alt="sketch" className="thumbnail" />
                         </div>
                     </div>
                     {/* <div className="col-md-12 col-lg">
