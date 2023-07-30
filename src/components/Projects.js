@@ -19,7 +19,9 @@ const Projects = () => {
     return (
         <section id="gallery" className="">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3  g-5 text-center">
+                <Link to="/projects/cuttysarkhouse">
                 <ProjectThumbnail title="Cutty Sark House" type="" image={cuttySark} />
+               </Link>
                 <ProjectThumbnail title="Zinc Extension" type="" image={zincExtension} />
                 {/* <Link to="/projects/skatespace"> */}
                     <ProjectThumbnail title="Skate Space" type="" image={skateSpace} />

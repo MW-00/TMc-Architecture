@@ -9,6 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import SteppedHouse from './components/projects/SteppedHouse';
 import SkateSpace from './components/projects/SkateSpace';
+import CuttySarkHouse from './components/projects/CuttySarkHouse';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
 
           {/* project pages */}
+          <Route path="/projects/cuttysarkhouse" element={<CuttySarkHouse />} />
           <Route path="/projects/skatespace" element={<SkateSpace />} />
           {/* <Route path="/projects/steppedhouse" element={<SteppedHouse />} /> */}
 

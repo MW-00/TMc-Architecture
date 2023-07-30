@@ -94,9 +94,10 @@ a:visited {
     font-weight: 300;
 }
 
-// Navlink:active {
-//     text-decoration: line-through;
-// }
+
+.googleMap {
+    filter: saturate(0);
+}
 
 .companies {
     height: 100px;
