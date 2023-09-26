@@ -1,16 +1,32 @@
 import React from "react";
 import Project from "../Project";
-import Projects from "../Projects";
+
+import img1 from "../../images/project images/06 Stepped House/3.jpg"
+import img2 from "../../images/project images/06 Stepped House/01.jpg"
+import img3 from "../../images/project images/06 Stepped House/2.jpg"
 const SteppedHouse = () => {
     return (
-<div>
-        <Project title="Stepped House, Barnes"
-        description1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis officia corrupti ipsa adipisci amet eos facilis non ex quo quas accusantium quos doloribus cupiditate voluptatem suscipit asperiores molestias quia error animi, perferendis similique. Iure quae, eum soluta et asperiores ex! Unde, voluptatibus quasi a repellat nobis minus mollitia quaerat dignissimos molestiae, aliquam iusto nihil omnis quas earum adipisci quibusdam sed voluptatem. Optio harum ab laudantium vero similique, sed saepe iste error in sit quidem molestias doloribus ducimus culpa? Fugit, incidunt quasi dolor est libero, ab quas debitis nihil iste consectetur asperiores reiciendis iusto, eos quia natus pariatur! Ut, ullam."
-        description2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis officia corrupti ipsa adipisci amet eos facilis non ex quo quas accusantium quos doloribus cupiditate voluptatem suscipit asperiores molestias quia error animi, perferendis similique. Iure quae, eum soluta et asperiores ex! Unde, voluptatibus quasi a repellat nobis minus mollitia quaerat dignissimos molestiae, aliquam iusto nihil omnis quas earum adipisci quibusdam sed voluptatem. Optio harum ab laudantium vero similique, sed saepe iste error in sit quidem molestias doloribus ducimus culpa? Fugit, incidunt quasi dolor est libero, ab quas debitis nihil iste consectetur asperiores reiciendis iusto, eos quia natus pariatur! Ut, ullam."/>
-        <div className="mb-5"></div>
-<hr className="mb-5"/>
-        <Projects />
-    </div>
+        <div>
+            <Project title="STEPPED HOUSE"
+                location=""
+                image1={img1}
+                image2={img2}
+                image3={img3}
+                description1={<>
+                Stepped House is a private residential dwelling built in SW London on a tight
+                backland plot. Responding to the strict planning criteria, the house is formed over
+                four levels and designed around three walled courtyards. At the centre of the house
+                is a pavilion room that ties separate accommodation together and creates the
+                transition as the building steps down the site. <br />
+                The façade design creates an identity in contrast to the local vernacular using robust
+                materials such as exposed concrete, water struck brick, standing seam zinc and
+                heavy oak framing. A contrasting lightweight greyed timber cladding was adopted
+                above. </> }
+
+                description3="This project was completed whilst working at Jonathan Douglas Architects."
+
+            />
+        </div>
     );
 
 }

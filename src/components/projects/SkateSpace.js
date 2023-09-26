@@ -3,16 +3,33 @@ import Project from "../Project";
 import img1 from "../../images/project images/Community - Skate Space/Marcin CGI/Skatepatk - view 1 - 16 06 2023 B.jpg"
 const SkateSpace = () => {
     return (
-<div>
-        <Project title="SKATE SPACE // JERSEY"
-        image={img1}
-        type="Community"
-        description1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis officia corrupti ipsa adipisci amet eos facilis non ex quo quas accusantium quos doloribus cupiditate voluptatem suscipit asperiores molestias quia error animi, perferendis similique. Iure quae, eum soluta et asperiores ex! Unde, voluptatibus quasi a repellat nobis minus mollitia quaerat dignissimos molestiae, aliquam iusto nihil omnis quas earum adipisci quibusdam sed voluptatem. Optio harum ab laudantium vero similique, sed saepe iste error in sit quidem molestias doloribus ducimus culpa? Fugit, incidunt quasi dolor est libero, ab quas debitis nihil iste consectetur asperiores reiciendis iusto, eos quia natus pariatur!"
-        />
-        
-        <div className="mb-5"></div>
-<hr className="mb-5"/>
-    </div>
+        <div>
+            <Project title="SKATE SPACE"
+                location="ST.OUEN, JERSEY"
+                image1={img1}
+                description1={<>
+                This project&#39;s objective is to transform a disused Methodist Chapel into an indoor
+                skatepark, in collaboration with the local charity Skate Space, which is dedicated to
+                enhancing the lives of young people in the community through positive initiatives.<br />
+                The design concept integrates skateboarding and artwork harmoniously with the
+                chapel&#39;s existing architectural elements, offering skaters an inspiring environment for
+                honing their skills. This initiative aims to provide a permanent, weather-resistant
+                space for young people who have, for too long, had to resort to car parks during
+                inclement weather. It not only offers them a home for their passion but also instills a
+                sense of pride while safeguarding the historical significance of this valuable heritage
+                building. <br />
+                We have carefully addressed the requirements of this listed building application and
+                successfully assembled a team of consultants who are generously contributing their
+                services on a pro-bono or low-bono basis.
+            </>
+            }
+
+                description2="Concept Design"
+>
+
+              
+            </Project>
+        </div>
     );
 
 }

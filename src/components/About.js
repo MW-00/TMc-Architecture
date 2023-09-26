@@ -6,11 +6,11 @@ const About = () => {
             <div className="row mb-5">
                 <div className="col-12 col-sm-4">
                     <h2>ABOUT</h2>
-                    
+
                 </div>
                 <div className="col-sm-8">
                     <p>
-                        <strong>9X5 ARCHITECTS is a forward thinking architectural-practice based in Jersey with a focus on designing buildings that make a positive impact to their surroundings.</strong><br/>   
+                        <strong>9X5 ARCHITECTS is a forward thinking architectural-practice based in Jersey with a focus on designing buildings that make a positive impact to their surroundings.</strong><br />
                         The practice specialises in the design & delivery of high quality sustainable architecture.
                         We undertake commissions across a range of sectors from domestic extensions and alterations, work to listed buildings, small-scale housing developments and community projects.
                         We unlock the value of each site to design innovative buildings that prioritise people, places and the planet.
@@ -35,7 +35,7 @@ const About = () => {
                 </div>
                 <div className="col-sm-8">
                     <p>
-                        Prior to setting up the practice in 2023, Tom was a senior architect for 3 years at a large architectural studio in Jersey. Prior to this he gained experience at RIBA-award winning practices in London including Pitman Tozer Architects, JDA & Levitt Bernstein.<br />
+                        9X5 ARCHITECTS was started by Tom McAviney in 2023. Prior to setting up the practice, Tom was a senior architect for 3 years at a large architectural studio in Jersey. Prior to this he gained experience at RIBA-award winning practices in London including Pitman Tozer Architects, JDA & Levitt Bernstein.<br />
                         While there, he worked on on a number of large-scale residential developments such as the <strong>Net-Zero Estate</strong> in Barking, as well as private residential projects such as <strong>Stepped House</strong> in Barnes. He has gained extensive experience at all stages on projects ranging in value from £500k to £10m. <br />
                         Tom graduated from the Welsh School of Architecture (Cardiff University) and The Bartlett School of Architecture (UCL).
                     </p>
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="row text-center d-flex">
                     <div className="col-md-12 col-lg">
                         <div className="imgContainer" >
-                            <img src={sketch    } alt="sketch" className="thumbnail" />
+                            <img src={sketch} alt="sketch" className="thumbnail" />
                         </div>
                     </div>
                     {/* <div className="col-md-12 col-lg">

@@ -16,23 +16,48 @@ import school4Burma from "../images/project images/08 School 4 Burma/Marcin CGI 
 
 
 const Projects = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     return (
         <section id="gallery" className="">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3  g-5 text-center">
+
                 <Link to="/projects/cuttysarkhouse">
-                <ProjectThumbnail title="Cutty Sark House" type="" image={cuttySark} />
-               </Link>
-                <ProjectThumbnail title="Zinc Extension" type="" image={zincExtension} />
-                {/* <Link to="/projects/skatespace"> */}
+                    <ProjectThumbnail title="Cutty Sark House" type="" image={cuttySark} />
+                </Link>
+
+                <Link to="/projects/zincextension">
+                    <ProjectThumbnail title="Zinc Extension" type="" image={zincExtension} />
+                </Link>
+
+                <Link to="/projects/skatespace">
                     <ProjectThumbnail title="Skate Space" type="" image={skateSpace} />
-                {/* </Link> */}
-                <ProjectThumbnail title="Larch Extension" type="" image={cedarExtension} />
-                <ProjectThumbnail title="Robertsport Community Centre" type="" image={robertsportCommunityCentre} />
-                <ProjectThumbnail title="Listed Farm Conversion" type="" image={listedFarmConversion} />
-                <ProjectThumbnail title="Stepped House" type="" image={steppedHouse} />
-                <ProjectThumbnail title="Net-Zero Estate" type="" image={netZeroEstate} />
+                </Link>
+
+                {/* also known as CEDAR EXTENSION */}
+                <Link to="/projects/larchextension">
+                    <ProjectThumbnail title="Larch Extension" type="" image={cedarExtension} />
+                </Link>
+
+                <Link to="/projects/robertsportcommunitycentre">
+                    <ProjectThumbnail title="Robertsport Community Centre" type="" image={robertsportCommunityCentre} />
+                </Link>
+
+                <Link to="/projects/listedfarmconversion">
+                    <ProjectThumbnail title="Listed Farm Conversion" type="" image={listedFarmConversion} />
+                </Link>
+
+                <Link to="/projects/steppedhouse">
+                    <ProjectThumbnail title="Stepped House" type="" image={steppedHouse} />
+                </Link>
+
+                <Link to="/projects/netzeroestate">
+                    <ProjectThumbnail title="Net-Zero Estate" type="" image={netZeroEstate} />
+                </Link>
+
+                <Link to="/projects/myanmarschool">
                 <ProjectThumbnail title="Myanmar School" type="" image={school4Burma} />
-                {/* <ProjectThumbnail title="JYAF Sketch Club" type="" image={splash1} /> */}
+                </Link>
+
             </div>
         </section>
 
