@@ -24,7 +24,7 @@ const SkateSpace = () => {
             </>
             }
 
-                description2="Concept Design"
+                description2="RIBA Stages 0 - 7"
 >
 
               
